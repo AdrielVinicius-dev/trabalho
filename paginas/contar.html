@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contagem</h1>
+
+    <p>Número de inicio da contagem</p>
+    <input type="number" id="inicio" placeholder="Digite o Número inicial">
+
+    <p>Número final da contagem</p>
+    <input type="number" id="fim" placeholder="Digite o número final">
+
+    <p>Contar de quanto em quanto</p>
+    <input type="number" id="passo" placeholder="Digite o numero de contagem">
+
+    <button onclick="contar()">Ver resultado</button>
+
+    <div id="result">
+        
+    
+    </div>
+    
+    <script>
+        var entrada = prompt("Digite seu nome: ");
+
+        if (Boolean(entrada)){
+            alert("Seja bem vindo " + entrada);
+        } else {
+            alert("Voçê não digitou nada ou cancelou.");
+        }
+    </script>
+    
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(79, 223, 79);
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+section{
+    margin: 75px;
+}
+
+div{
+    text-align: center;
+    
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+div h2:hover{
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.5;
+}
+
+div h2{
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: rgb(79, 223, 79);
+    border-radius: 15px;
+}
+
+div h2 a{
+    text-decoration: none;
+    color: black;
+}

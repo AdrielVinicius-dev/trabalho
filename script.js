@@ -28,8 +28,6 @@ function contar(){
     var passo = parseInt(document.getElementById("passo").value);
     var resultDiv = document.getElementById("result");
 
-    resultDiv.innerHTML = "";
-
     //inicia a contagem
     let resultado = "<p>Contando: ";
     if (inicio < fim) {
